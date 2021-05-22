@@ -21,7 +21,7 @@ public class RestClient {
         RestAssured.useRelaxedHTTPSValidation();
 
         this.requestSpecification = new RequestSpecBuilder()
-                .setBaseUri("https://reqres.in/api/")
+                .setBaseUri("https://reqres.in/api/") //https://reqres.in/
                 //.addFilter((Filter) new ResponseLoggingFilter())//log request and response for better debugging. You can also only log if a requests fails.
                 //.addFilter((Filter) new RequestLoggingFilter())
                 .build();
